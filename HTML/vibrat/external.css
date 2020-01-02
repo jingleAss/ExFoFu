@@ -3,14 +3,14 @@ table {
 }
 
 table td, table th {
-  border: 2px solid #ddd;
-  padding: 4px;
+  border: 5px solid #ddd;
+  padding: 8px;
 }
 
 table tr:nth-child(even){background-color: #f2f2f2;}
 
 table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-bottom: 26px;
   text-align: left;
 }
