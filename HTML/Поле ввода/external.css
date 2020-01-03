@@ -1,0 +1,45 @@
+table {
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 5px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f3f2f2;}
+
+table th {
+  padding-top: 16px;
+  padding-bottom: 26px;
+  text-align: left;
+}
+
+input {
+  border-collapse: collapse;
+}
+
+input {
+	 padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+
+}
+
+input:nth-child(even){background-color:#0000FF;}
+
+ .bloks { 
+ 	 width: 200;
+    position:absolute;
+ 	left:445px;
+    bottom: 258px;
+    border-style: outset;
+    border-color: #0085FF;
+    border-width: 2px;
+}
+   .imge {
+
+ 	position:relative;
+ 	left:850px;
+    bottom: 370px;
+   }
