@@ -1,0 +1,98 @@
+.min_cont{ 
+ position:relative;
+  width: 200px;
+  height 80px;	
+  bottom:80px;
+  left:160px;
+}
+form{
+	width:250px;
+	height:80px;
+}
+.container { 
+  float: left;
+  width: 400px; 
+  height: 400px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color:	#F0E68C;
+  border-style: outset;
+  border-color:#FFD700;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 12px;
+}
+
+.container2 { 
+  float: center;
+  width: 300px; 
+  height: 400px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #F0E68C;
+  border-style: outset;
+  border-color:#FFD700;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 12px;
+
+}
+
+.container3{
+  position: relative;
+  bottom: 427px;
+  float: right;
+  width: 400px; 
+  height: 400px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #F0E68C;
+  border-style: outset;
+  border-color:#FFD700;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 12px;
+
+}
+
+input {
+	background-color:#D4AF37;
+	border-style: outset;
+	border-color:  #D2691E;  
+}
+.tet {
+	 	color: #D2691E;
+}
+
+body{background-image:url(coffe.jpg);}
+
+header{
+   position:relative;
+   left: 350px;
+  width: 700px;  
+  border-style: outset;
+  background-color:	#D2691E;
+  border-color:#FFD700;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 1px;
+}
+textarea{
+	background-color:#D4AF37;
+	border-style: outset;
+	border-color:  #D2691E;
+}
+
+h2{font-style: font-family: "Times New Roman", Georgia, Serif;}
+
+a.knopka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: Brown; /* фон кнопки */
+  padding: 10px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+a.knopka:hover { background: #D2691E; } /* при наведении курсора мышки */
+a.knopka:active { background: #FFD700; } /* при нажатии */
+ img{ border-radius: 10px;}
