@@ -31,8 +31,8 @@ input:nth-child(even){background-color:#0000FF;}
  .bloks { 
  	 width: 200;
     position:absolute;
- 	left:445px;
-    bottom: 258px;
+ 	  left:445px;
+    bottom: 358px;
     border-style: outset;
     border-color: #0085FF;
     border-width: 2px;
@@ -40,6 +40,6 @@ input:nth-child(even){background-color:#0000FF;}
    .imge {
 
  	position:relative;
- 	left:850px;
+ 	  left:950px;
     bottom: 370px;
    }
