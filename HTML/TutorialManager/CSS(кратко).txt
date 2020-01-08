@@ -1,0 +1,77 @@
+Функции CSS
+
+1.	position:relative/absolute;
+
+  Создается для блоков и их расположения на сайте. 
+  по станарту для всех блоков присваевается значение
+  "absolute"
+
+2.	float: left/center/right;
+  дефолдное расположение блоков с значение "absolute"
+
+
+
+3. 	width: 400px; 
+  	height: 400px;	
+   Размеры блока.
+
+
+4.       bottom:80px;
+         left:160px;
+   Координатное расположение блока, всего 4 функции, но для работы
+   достаточно 2.Для значения "relative"
+
+5.	 padding: 0 15px;
+   Отступ от краев блока.
+
+
+6.  	border-...
+   Рамка. У нее дохуеще значений в саблиме можно увидеть, важные значения
+   по моему мнению:
+	
+   	-style: outset; стиль рамки, есть разныеъ.
+	-color:#FFD700;
+	-radius: 10px; радиус закругдения.
+	-width: 2px; Ширина рамки
+
+
+7.	margin:0 auto;
+   Отступ от внешних элементов, например блока.
+
+8.	padding: 12px;
+   Внутрений отступ от кравев блока.
+
+
+пример использования:
+
+
+.container3{
+  position: relative;
+  bottom: 427px;
+  float: right;
+  width: 400px; 
+  height: 400px;
+  padding: 0 15px;
+  margin:0 auto;
+  background-color: #F0E68C;
+  border-style: outset;
+  border-color:#FFD700;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 12px;
+
+}
+
+Также все жти значения можно применять и для тегов. Кроме рамки для тегов
+с текстом например <p>. 
+
+
+
+
+
+
+
+
+
+
+
