@@ -1,0 +1,73 @@
+header{
+	float:left;
+
+}
+.logo{
+	position: absolute;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+
+}
+.small{
+	width: 550px;
+	height: 10px;	 
+	position: absolute;
+	font-size:10px;
+	bottom: 2px;
+	left: 4px;
+}
+.logo1{
+	position: relative;
+	border-color: red;
+	border-style: outset;
+	border-width: 2px; 
+	width: 600px;
+	height: 99px;
+	float: right;
+	left: 575px;
+	bottom: 5px;
+}
+
+.left_blok{
+	position: relative;
+	border-color: green;
+	border-style: outset;
+	border-width: 2px; 
+	height: 700px;
+	width: 200px;
+	bottom: -130px;
+	margin: 10px;
+	background-color: #C0C0C09C;
+
+}
+.Center_blok{
+	
+	position: relative;
+	left: 230px;
+	bottom: 585px;
+	border-color: green	;
+	border-style: outset;
+	border-width: 2px; 
+	height: 700px;
+	width: 700px;
+	margin: 10px;
+	background-color: #C0C0C09C;
+}
+
+.Right_blok{
+	position: relative;
+	border-style: outset;
+	border-color: green;
+	height: 700px;
+	width: 250px;
+	left: 990px;
+	background-color: #C0C0C09C;
+	bottom: 1300px;	
+}
+
+body{
+	background: linear-gradient(45deg,#83BF87EC,#DB9781FF);
+	height: 1000px;
+}
+
