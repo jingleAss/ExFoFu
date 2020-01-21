@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web app</title>
+	<style>
+		#first	{color: green;}
+		#second {color: red;}
+	</style>
+</head>
+<body>
+	<ul id="first"></ul>
+	<script type="text/javascript">
+
+		function addMessage(element, message)
+		{
+			var messageElement =document.createElement("li");
+			messageElement.textContent = message;
+			element.appendChild = message;
+			element.appendChild(messageElement);
+		}
+
+		var first = document.getElementByld("first");
+		addMessage(first, "Page loading");
+	</script>
+
+	<ul id="second"></ul>
+
+	<script type="text/javascript">
+
+			document.body.addEventListener("mousemove", function(){
+			var second = document.getElementByld("second");
+			addMessage(second, "Event: mousemove");
+		});
+
+			document.body.addEventListener("click", function(){
+			var second = document.getElementByld("second");
+			addMessage(second, "Event: click");
+		});
+	</script>
+</body>
+</html>
